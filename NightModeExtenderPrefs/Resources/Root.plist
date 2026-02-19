@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Extend Camera night mode exposure for astrophotography. Restart Camera app after changing settings.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.34306.nightmodeextender</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.34306.nightmodeextender/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Max Duration</string>
+			<key>footerText</key>
+			<string>Maximum exposure time when Night Mode is set to Max. This overrides the ISP-suggested duration regardless of lighting conditions.</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>NMEDurationSliderCell</string>
+			<key>cell</key>
+			<string>PSTableCell</string>
+			<key>default</key>
+			<real>300</real>
+			<key>defaults</key>
+			<string>com.34306.nightmodeextender</string>
+			<key>key</key>
+			<string>maxDuration</string>
+			<key>height</key>
+			<integer>130</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>NightModeExtender v1.0.0
+by 34306</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NightModeExtender</string>
+</dict>
+</plist>

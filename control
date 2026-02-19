@@ -1,0 +1,9 @@
+Package: com.34306.nightmodeextender
+Name: NightModeExtender
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Extends Camera night mode exposure up to 5 minutes for astrophotography (stars, Milky Way, long exposures).
+Maintainer: Little 34306
+Author: 34306
+Section: Tweaks
